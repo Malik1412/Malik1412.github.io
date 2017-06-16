@@ -1,6 +1,6 @@
 body {
-    background: url("4q0gJjldgqq1a.webp");
-    background-size: 750px 220px;
+    background: url("farm.webp");
+    background-size: 1920px 1080px;
     padding-top: 40px;
   
 }
@@ -20,4 +20,22 @@ Essay {
   font-size: 20px;
   color: white;
   line-height: 1.5;
+}
+
+input[type="checkbox"] {
+    content: url('http://placekitten.com/200/210');
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+input[type="checkbox"]:checked {
+    content: url('http://placekitten.com/210/220');
+}
+
+
+.right{
+  position:absolute;
+  right:0px;
+  width:200px;
+
 }
