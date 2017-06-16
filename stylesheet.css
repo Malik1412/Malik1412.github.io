@@ -1,3 +1,23 @@
-h1 {
+body {
+    background: url("4q0gJjldgqq1a.webp");
+    background-size: 750px 220px;
+    padding-top: 40px;
+  
+}
+
+Headline {
+  display: block;
   color: red;
+  font-size: 100px;
+  text-align:center;
+  text-shadow: 10px 10px #9F9393;
+/*   font-weight: bold; */
+  font-family: 'Pacifico', cursive;
+  
+}
+
+Essay {
+  font-size: 20px;
+  color: white;
+  line-height: 1.5;
 }
